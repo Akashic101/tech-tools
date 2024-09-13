@@ -6,6 +6,8 @@ import {
 	IconLock,
 	IconPassword,
 	IconStethoscope,
+	IconTemperature,
+	IconTransform,
 } from '@tabler/icons-react';
 import classes from './NavBarNested.module.css';
 import { ActionToggle } from '../ActionToggle/ActionToggle';
@@ -16,7 +18,6 @@ const data = [
 	{
 		label: 'Password Generator',
 		icon: IconPassword,
-		initiallyOpened: true,
 		links: [
 			{ label: 'Password', link: '/password-generator', icon: IconLock },
 			{
@@ -30,6 +31,13 @@ const data = [
 				link: '/password-strength',
 				icon: IconStethoscope,
 			},
+		],
+	},
+	{
+		label: 'Converter',
+		icon: IconTransform,
+		links: [
+			{ label: 'Temperature converter', link: '/temperature-converter', icon: IconTemperature },
 		],
 	},
 ];
