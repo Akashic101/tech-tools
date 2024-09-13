@@ -1,4 +1,4 @@
-import { Group, Code, ScrollArea, rem } from '@mantine/core';
+import { Group, Code, ScrollArea, Text } from '@mantine/core';
 import {
 	IconAlignJustified,
 	IconFlower,
@@ -49,7 +49,14 @@ export function NavbarNested() {
 		<nav className={classes.navbar}>
 			<div className={classes.header}>
 				<Group justify="space-between">
-					Tech-Tools
+				<Text
+									size="xl"
+									fw={700}
+									variant="gradient"
+									gradient={{ from: 'red', to: 'orange', deg: 90 }}
+								>
+									Tech Tools
+								</Text>
 					<Code fw={700}>v0.0.1</Code>
 				</Group>
 			</div>

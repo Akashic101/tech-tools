@@ -35,8 +35,8 @@ export function LinksGroup({ icon: Icon, label, link, initiallyOpened, links }: 
 				}}
 			>
 				<Group gap={10} align="center">
-					<ThemeIcon variant="light" size={24}>
-						<LinkIcon size={rem(18)} />
+					<ThemeIcon variant="gradient" size={'sm'} gradient={{ from: 'red', to: 'orange', deg: 90 }}>
+						<LinkIcon size={rem(12)} />
 					</ThemeIcon>
 					<Text>{link.label}</Text>
 				</Group>
@@ -58,7 +58,7 @@ export function LinksGroup({ icon: Icon, label, link, initiallyOpened, links }: 
 			>
 				<Group justify="space-between" gap={0}>
 					<Box style={{ display: 'flex', alignItems: 'center' }}>
-						<ThemeIcon variant="light" size={30}>
+						<ThemeIcon variant="gradient" gradient={{ from: 'red', to: 'orange', deg: 90 }}>
 							<Icon style={{ width: rem(18), height: rem(18) }} />
 						</ThemeIcon>
 						<Box ml="md">{label}</Box>
