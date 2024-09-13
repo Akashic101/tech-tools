@@ -8,6 +8,8 @@ This is the repo of the tech tools I developed. You can access it under https://
 
 **Version 0.0.1**
 
+- Converter
+  - Added Temperature Generator
 - Password Generator
   - Added Password Generator
   - Added Passphrase Generator

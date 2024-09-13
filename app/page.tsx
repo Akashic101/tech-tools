@@ -24,6 +24,12 @@ export default function HomePage() {
 
 			<List listStyleType="disc">
 				<List.Item>
+					<Title order={4}>Converter</Title>
+					<List withPadding listStyleType="disc">
+						<List.Item>Added Temperature Converter</List.Item>
+					</List>
+				</List.Item>
+				<List.Item>
 					<Title order={4}>Password Generator</Title>
 					<List withPadding listStyleType="disc">
 						<List.Item>Added Password Generator</List.Item>
