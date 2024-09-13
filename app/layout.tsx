@@ -35,18 +35,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 				<meta property="og:title" content="Tech Tools" />
 				<meta
 					property="og:description"
-					content="A modern platform providing the best tools for tech professionals."
+					content="A do-it-all-tool for everyone and everything"
 				/>
 				<meta property="og:image" content="/web-app-manifest-192x192.png" />
 				<meta property="og:url" content="https://www.tech-tools.davidmoll.net" />
 				<meta property="og:type" content="website" />
 				<meta property="og:site_name" content="Tech Tools" />
 				<meta property="og:locale" content="en_US" />
-				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:title" content="Tech Tools" />
 				<meta
 					name="twitter:description"
-					content="A modern platform providing the best tools for tech professionals."
+					content="A do-it-all-tool for everyone and everything"
 				/>
 				<meta name="twitter:image" content="/web-app-manifest-192x192.png" />
 			</head>
