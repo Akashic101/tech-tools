@@ -15,7 +15,8 @@ export default function HomePage() {
 			<Title order={2}>About</Title>
 			<Text>
 				Tech Tools is a open-source collection of tools to make development, daily tasks and other
-				stuff easier for everyone created using React and Mantine. The source-code is free to view, edit and copy by everyone and{' '}
+				stuff easier for everyone created using React and Mantine. The source-code is free to view,
+				edit and copy by everyone and{' '}
 				<a href="https://github.com/Akashic101/Tech-Tools">hosted on Github</a>.
 				<br />
 				You have a tool you want to add to the collection or need help getting an idea realized?

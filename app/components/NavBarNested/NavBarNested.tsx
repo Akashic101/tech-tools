@@ -49,14 +49,14 @@ export function NavbarNested() {
 		<nav className={classes.navbar}>
 			<div className={classes.header}>
 				<Group justify="space-between">
-				<Text
-									size="xl"
-									fw={700}
-									variant="gradient"
-									gradient={{ from: 'red', to: 'orange', deg: 90 }}
-								>
-									Tech Tools
-								</Text>
+					<Text
+						size="xl"
+						fw={700}
+						variant="gradient"
+						gradient={{ from: 'red', to: 'orange', deg: 90 }}
+					>
+						Tech Tools
+					</Text>
 					<Code fw={700}>v0.0.1</Code>
 				</Group>
 			</div>

@@ -35,7 +35,11 @@ export function LinksGroup({ icon: Icon, label, link, initiallyOpened, links }: 
 				}}
 			>
 				<Group gap={10} align="center">
-					<ThemeIcon variant="gradient" size={'sm'} gradient={{ from: 'red', to: 'orange', deg: 90 }}>
+					<ThemeIcon
+						variant="gradient"
+						size={'sm'}
+						gradient={{ from: 'red', to: 'orange', deg: 90 }}
+					>
 						<LinkIcon size={rem(12)} />
 					</ThemeIcon>
 					<Text>{link.label}</Text>
