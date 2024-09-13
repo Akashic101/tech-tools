@@ -1,17 +1,21 @@
 'use client';
 
-import { Code, Container, Space, Title, Text, List } from '@mantine/core';
+import { Code, Container, Space, Title, Text, List, Avatar, Flex } from '@mantine/core';
 
 export default function HomePage() {
 	return (
 		<Container fluid>
-			<Title order={1}>Tech Tools</Title>
-			<Code>v0.0.1</Code>
+			<Flex mih={50} gap="sm" justify="flex-start" align="flex-end" direction="row" wrap="wrap">
+				<Title order={1}>Tech Tools</Title>
+				<Avatar src="/web-app-manifest-192x192.png" alt="Tech Tools logo" />
+				<Code>v0.0.1</Code>
+			</Flex>
+
 			<Space h="xl" />
 			<Title order={2}>About</Title>
 			<Text>
 				Tech Tools is a open-source collection of tools to make development, daily tasks and other
-				stuff easier for everyone. The source-code is free to view, edit and copy by everyone and{' '}
+				stuff easier for everyone created using React and Mantine. The source-code is free to view, edit and copy by everyone and{' '}
 				<a href="https://github.com/Akashic101/Tech-Tools">hosted on Github</a>.
 				<br />
 				You have a tool you want to add to the collection or need help getting an idea realized?
