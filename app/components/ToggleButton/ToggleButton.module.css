@@ -11,8 +11,8 @@
 	background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-8));
 
 	&[data-checked] {
-		border-color: var(--mantine-color-blue-filled);
-		background-color: var(--mantine-color-blue-light);
+		border-color: var(--mantine-color-red-filled);
+		background-color: var(--mantine-color-red-light);
 	}
 }
 

@@ -156,7 +156,7 @@ export default function HaikuGenerator() {
 							<Button
 								w={200}
 								leftSection={<IconKey size={14} />}
-								variant="default"
+								variant="outline" color="red"
 								onClick={() => generateHaiku()}
 							>
 								Generate
@@ -165,7 +165,7 @@ export default function HaikuGenerator() {
 								{({ copied, copy }) => (
 									<Button
 										w={200}
-										color={copied ? 'teal' : 'blue'}
+										color={copied ? 'teal' : 'red'}
 										onClick={copy}
 										disabled={!generatedHaiku}
 									>

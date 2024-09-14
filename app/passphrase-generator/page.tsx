@@ -109,7 +109,7 @@ export default function PasswordGenerator() {
 							<Button
 								w={200}
 								leftSection={<IconKey size={14} />}
-								variant="default"
+								variant="outline" color="red"
 								onClick={() => generatePassphrase()}
 							>
 								Generate
@@ -118,7 +118,7 @@ export default function PasswordGenerator() {
 								{({ copied, copy }) => (
 									<Button
 										w={200}
-										color={copied ? 'teal' : 'blue'}
+										color={copied ? 'teal' : 'red'}
 										onClick={copy}
 										disabled={!generatedPassphrase}
 									>
