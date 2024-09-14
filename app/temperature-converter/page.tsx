@@ -127,56 +127,48 @@ export default function TemperatureConverter() {
 					value={celsius}
 					onChange={(value) => handleTemperatureChange('celsius', value)}
 					decimalScale={2}
-					fixedDecimalScale
 				/>
 				<NumberInput
 					label="Fahrenheit (°F)"
 					value={fahrenheit}
 					onChange={(value) => handleTemperatureChange('fahrenheit', value)}
 					decimalScale={2}
-					fixedDecimalScale
 				/>
 				<NumberInput
 					label="Kelvin (K)"
 					value={kelvin}
 					onChange={(value) => handleTemperatureChange('kelvin', value)}
 					decimalScale={2}
-					fixedDecimalScale
 				/>
 				<NumberInput
 					label="Rankine (°R)"
 					value={rankine}
 					onChange={(value) => handleTemperatureChange('rankine', value)}
 					decimalScale={2}
-					fixedDecimalScale
 				/>
 				<NumberInput
 					label="Delisle (°De)"
 					value={delisle}
 					onChange={(value) => handleTemperatureChange('delisle', value)}
 					decimalScale={2}
-					fixedDecimalScale
 				/>
 				<NumberInput
 					label="Newton (°N)"
 					value={newton}
 					onChange={(value) => handleTemperatureChange('newton', value)}
 					decimalScale={2}
-					fixedDecimalScale
 				/>
 				<NumberInput
 					label="Réaumur (°Ré)"
 					value={reaumur}
 					onChange={(value) => handleTemperatureChange('reaumur', value)}
 					decimalScale={2}
-					fixedDecimalScale
 				/>
 				<NumberInput
 					label="Rømer (°Rø)"
 					value={romer}
 					onChange={(value) => handleTemperatureChange('romer', value)}
 					decimalScale={2}
-					fixedDecimalScale
 				/>
 			</Stack>
 		</Center>
