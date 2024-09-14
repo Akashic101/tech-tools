@@ -6,10 +6,11 @@ This is the repo of the tech tools I developed. You can access it under https://
 
 ## Patch Notes
 
-**Version 0.0.1**
+**Version 1.1.0**
 
 - Converter
-  - Added Temperature Generator
+  - Added Temperature Converter
+  - Added Color Converter
 - Password Generator
   - Added Password Generator
   - Added Passphrase Generator
