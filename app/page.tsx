@@ -8,7 +8,7 @@ export default function HomePage() {
 			<Flex mih={50} gap="sm" justify="flex-start" align="flex-end" direction="row" wrap="wrap">
 				<Title order={1}>Tech Tools</Title>
 				<Avatar src="/web-app-manifest-192x192.png" alt="Tech Tools logo" />
-				<Code>v1.1.0</Code>
+				<Code>v1.2.0</Code>
 			</Flex>
 
 			<Space h="xl" />
@@ -25,7 +25,7 @@ export default function HomePage() {
 			</Text>
 			<Space h="xl" />
 			<Title order={2}>Patch notes</Title>
-			<Title order={3}>1.1.0</Title>
+			<Title order={3}>1.2.0</Title>
 
 			<List listStyleType="disc">
 				<List.Item>
