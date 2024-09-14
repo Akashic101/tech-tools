@@ -99,7 +99,8 @@ export default function PasswordStrength() {
 				<Button
 					disabled={!passwordToTest}
 					leftSection={<IconZoom size={14} />}
-					variant="outline" color="red"
+					variant="outline"
+					color="red"
 					onClick={() => estimatePasswordStrength()}
 				>
 					Estimate password strength
