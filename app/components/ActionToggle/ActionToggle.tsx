@@ -13,7 +13,8 @@ export function ActionToggle() {
 		<Group justify="center">
 			<ActionIcon
 				onClick={() => setColorScheme(computedColorScheme === 'light' ? 'dark' : 'light')}
-				variant="default"
+				variant="outline"
+				color="red"
 				size="xl"
 				aria-label="Toggle color scheme"
 			>
