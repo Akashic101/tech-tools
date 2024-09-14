@@ -76,7 +76,8 @@ export default function Base64Converter() {
 							<Button
 								disabled={!uploadedFile}
 								leftSection={<IconTransform size={14} />}
-								variant="outline" color="red"
+								variant="outline"
+								color="red"
 								onClick={convertToBase64}
 							>
 								Convert to Base64
@@ -133,7 +134,8 @@ export default function Base64Converter() {
 							<Button
 								disabled={!base64Input}
 								leftSection={<IconDownload size={14} />}
-								variant="outline" color="red"
+								variant="outline"
+								color="red"
 								onClick={downloadFile}
 							>
 								Download file

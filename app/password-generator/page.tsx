@@ -121,7 +121,8 @@ export default function PasswordGenerator() {
 							<Button
 								w={200}
 								leftSection={<IconKey size={14} />}
-								variant="outline" color="red"
+								variant="outline"
+								color="red"
 								onClick={() => generatePassword()}
 							>
 								Generate

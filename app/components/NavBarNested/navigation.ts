@@ -9,7 +9,7 @@ import {
 	IconTemperature,
 	IconColorFilter,
 	IconFileIsr,
-    IconAbc,
+	IconAbc,
 } from '@tabler/icons-react';
 
 export const data = [
