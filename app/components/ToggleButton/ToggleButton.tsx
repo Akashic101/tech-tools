@@ -23,7 +23,7 @@ export function ToggleButton({ label, text, checked, onClick }: ToggleButtonProp
 					{label}
 				</Text>
 			</div>
-			<Checkbox checked={checked} onChange={() => {}} tabIndex={-1} />
+			<Checkbox color="red" checked={checked} onChange={() => {}} tabIndex={-1} />
 		</UnstyledButton>
 	);
 }
