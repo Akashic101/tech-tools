@@ -1,6 +1,7 @@
 import { Group, Code, ScrollArea, Text } from '@mantine/core';
 import {
 	IconAlignJustified,
+	IconColorFilter,
 	IconFlower,
 	IconHome,
 	IconLock,
@@ -38,6 +39,7 @@ const data = [
 		icon: IconTransform,
 		links: [
 			{ label: 'Temperature converter', link: '/temperature-converter', icon: IconTemperature },
+			{ label: 'Color converter', link: '/color-converter', icon: IconColorFilter },
 		],
 	},
 ];
