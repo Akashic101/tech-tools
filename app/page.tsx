@@ -17,7 +17,7 @@ export default function HomePage() {
 			<Text>
 				Tech Tools is an open-source collection of utilities designed to simplify development, daily
 				tasks, and more. Created using React and Mantine, the source code is free for everyone to
-				view, edit, and share, {' '}
+				view, edit, and share. It's{' '}
 				<a href="https://github.com/Akashic101/Tech-Tools">hosted on GitHub</a>.
 				<br />
 				Do you have a tool you'd like to contribute or need help with an idea? Feel free to create
@@ -39,37 +39,62 @@ export default function HomePage() {
 
 			<Space h="xl" />
 			<Title order={2}>Patch Notes</Title>
-			<Title order={3}>Version 1.2.0</Title>
-
-			<List listStyleType="disc">
-				<List.Item>
-					<Title order={4}>Converters</Title>
-					<List withPadding listStyleType="disc">
-						<List.Item>Added Color Converter</List.Item>
-						<List.Item>Added Temperature Converter</List.Item>
-					</List>
-				</List.Item>
-
-				<List.Item>
-					<Title order={4}>Password Tools</Title>
-					<List withPadding listStyleType="disc">
-						<List.Item>Added Password Generator</List.Item>
-						<List.Item>Added Passphrase Generator</List.Item>
-						<List.Item>Added Haiku Generator</List.Item>
-						<List.Item>Added Password Strength Meter</List.Item>
-					</List>
-				</List.Item>
-
-				<List.Item>
-					<Title order={4}>General Improvements</Title>
-					<List withPadding listStyleType="disc">
-						<List.Item>Added Navbar and Header</List.Item>
-						<List.Item>Added Light/Dark Theme</List.Item>
-						<List.Item>Added README</List.Item>
-						<List.Item>Added Homepage</List.Item>
-					</List>
-				</List.Item>
+			<Title order={3}>v1.2.1</Title>
+			<Title order={4}>General Improvements</Title>
+			<List withPadding listStyleType="disc">
+				<List.Item>Added link to github in the NavBar</List.Item>
+				<List.Item>Small layout changes</List.Item>
+				<List.Item>Added WIP-notice</List.Item>
+				<List.Item>pdated patchnotes-layout</List.Item>
 			</List>
+
+			<Space h="xl" />
+			<details>
+				<summary>
+					<Title order={4} style={{ display: 'inline', cursor: 'pointer' }}>
+						Previous Versions
+					</Title>
+				</summary>
+
+				<List withPadding listStyleType="disc">
+					<List.Item>
+						<Title order={3}>v1.2.0</Title>
+					</List.Item>
+					<List withPadding listStyleType="disc">
+						<List.Item>
+							<Title order={4}>Converters</Title>
+							<List withPadding listStyleType="disc">
+								<List.Item>Added Color Converter</List.Item>
+								<List.Item>Added Temperature Converter</List.Item>
+							</List>
+						</List.Item>
+					</List>
+					<Space h="xl" />
+					<List.Item>
+						<Title order={3}>v1.1.0</Title>
+					</List.Item>
+					<List withPadding listStyleType="disc">
+						<List.Item>
+							<Title order={4}>Password Tools</Title>
+							<List withPadding listStyleType="disc">
+								<List.Item>Added Password Generator</List.Item>
+								<List.Item>Added Passphrase Generator</List.Item>
+								<List.Item>Added Haiku Generator</List.Item>
+								<List.Item>Added Password Strength Meter</List.Item>
+							</List>
+						</List.Item>
+						<List.Item>
+							<Title order={4}>General Improvements</Title>
+							<List withPadding listStyleType="disc">
+								<List.Item>Added Navbar and Header</List.Item>
+								<List.Item>Added Light/Dark Theme</List.Item>
+								<List.Item>Added README</List.Item>
+								<List.Item>Added Homepage</List.Item>
+							</List>
+						</List.Item>
+					</List>
+				</List>
+			</details>
 		</Container>
 	);
 }
