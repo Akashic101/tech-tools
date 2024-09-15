@@ -1,8 +1,9 @@
-import { Group, Code, ScrollArea, Text } from '@mantine/core';
+import { Group, Code, ScrollArea, Text, Flex, ActionIcon } from '@mantine/core';
 import classes from './NavBarNested.module.css';
 import { ActionToggle } from '../ActionToggle/ActionToggle';
 import { LinksGroup } from '../NavBarLinksGroup/NavBarLinksGroup';
 import { data } from './navigation';
+import { IconBrandGithub } from '@tabler/icons-react';
 
 export function NavbarNested() {
 	const links = data.map((item) => <LinksGroup {...item} key={item.label} />);
@@ -28,7 +29,18 @@ export function NavbarNested() {
 			</ScrollArea>
 
 			<div className={classes.footer}>
-				<ActionToggle />
+				<Flex mih={50} gap="md" justify="center" align="center" direction="row" wrap="wrap">
+					<ActionToggle />
+					<ActionIcon
+						component="a"
+						href="https://github.com/Akashic101/tech-tools"
+						color="grey"
+						variant="outline"
+						aria-label="Settings"
+					>
+						<IconBrandGithub stroke={1.5} />
+					</ActionIcon>
+				</Flex>
 			</div>
 		</nav>
 	);
