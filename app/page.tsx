@@ -1,6 +1,7 @@
 'use client';
 
-import { Code, Container, Space, Title, Text, List, Avatar, Flex } from '@mantine/core';
+import { Code, Container, Space, Title, Text, List, Avatar, Flex, Alert } from '@mantine/core';
+import { IconExclamationMark } from '@tabler/icons-react';
 
 export default function HomePage() {
 	return (
@@ -14,41 +15,56 @@ export default function HomePage() {
 			<Space h="xl" />
 			<Title order={2}>About</Title>
 			<Text>
-				Tech Tools is a open-source collection of tools to make development, daily tasks and other
-				stuff easier for everyone created using React and Mantine. The source-code is free to view,
-				edit and copy by everyone and{' '}
-				<a href="https://github.com/Akashic101/Tech-Tools">hosted on Github</a>.
+				Tech Tools is an open-source collection of utilities designed to simplify development, daily
+				tasks, and more. Created using React and Mantine, the source code is free for everyone to
+				view, edit, and share, {' '}
+				<a href="https://github.com/Akashic101/Tech-Tools">hosted on GitHub</a>.
 				<br />
-				You have a tool you want to add to the collection or need help getting an idea realized?
-				Feel free to create an issue or start a discussion on Github to see what others think and if
-				someone wants to help you
+				Do you have a tool you'd like to contribute or need help with an idea? Feel free to create
+				an issue or start a discussion on GitHub to gather feedback and potentially collaborate with
+				others.
 			</Text>
+
 			<Space h="xl" />
-			<Title order={2}>Patch notes</Title>
-			<Title order={3}>1.2.0</Title>
+			<Alert
+				variant="light"
+				color="red"
+				title="Work-in-Progress Notice"
+				icon={<IconExclamationMark />}
+			>
+				This website and its tools are currently a work in progress. Some features may not function
+				as expected. If you encounter any bugs or incorrect data (e.g., from the converters), please{' '}
+				<a href="https://github.com/Akashic101/Tech-Tools/issues">report the issue on GitHub</a>.
+			</Alert>
+
+			<Space h="xl" />
+			<Title order={2}>Patch Notes</Title>
+			<Title order={3}>Version 1.2.0</Title>
 
 			<List listStyleType="disc">
 				<List.Item>
-					<Title order={4}>Converter</Title>
+					<Title order={4}>Converters</Title>
 					<List withPadding listStyleType="disc">
 						<List.Item>Added Color Converter</List.Item>
 						<List.Item>Added Temperature Converter</List.Item>
 					</List>
 				</List.Item>
+
 				<List.Item>
-					<Title order={4}>Password Generator</Title>
+					<Title order={4}>Password Tools</Title>
 					<List withPadding listStyleType="disc">
 						<List.Item>Added Password Generator</List.Item>
 						<List.Item>Added Passphrase Generator</List.Item>
 						<List.Item>Added Haiku Generator</List.Item>
-						<List.Item>Added Password Strength Generator</List.Item>
+						<List.Item>Added Password Strength Meter</List.Item>
 					</List>
 				</List.Item>
+
 				<List.Item>
-					<Title order={4}>General</Title>
+					<Title order={4}>General Improvements</Title>
 					<List withPadding listStyleType="disc">
 						<List.Item>Added Navbar and Header</List.Item>
-						<List.Item>Added light/dark theme</List.Item>
+						<List.Item>Added Light/Dark Theme</List.Item>
 						<List.Item>Added README</List.Item>
 						<List.Item>Added Homepage</List.Item>
 					</List>
