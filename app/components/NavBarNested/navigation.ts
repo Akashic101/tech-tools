@@ -10,6 +10,7 @@ import {
 	IconColorFilter,
 	IconFileIsr,
 	IconAbc,
+	IconBrandDocker,
 } from '@tabler/icons-react';
 
 export const data = [
@@ -40,6 +41,7 @@ export const data = [
 			{ label: 'Color converter', link: '/color-converter', icon: IconColorFilter },
 			{ label: 'Base64 file converter', link: '/base64-converter', icon: IconFileIsr },
 			{ label: 'Text to NATO converter', link: '/nato-converter', icon: IconAbc },
+			{ label: 'Docker run converter', link: '/docker-run-converter', icon: IconBrandDocker },
 		],
 	},
 ];
