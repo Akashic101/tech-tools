@@ -1,6 +1,15 @@
 'use client';
 
-import { Button, Center, CopyButton, Select, Stack, Textarea, TextInput } from '@mantine/core';
+import {
+	Button,
+	Center,
+	CopyButton,
+	Flex,
+	Select,
+	Stack,
+	Textarea,
+	TextInput,
+} from '@mantine/core';
 import { IconDownload } from '@tabler/icons-react';
 const composerize = require('composerize');
 import { useEffect, useState } from 'react';
@@ -87,28 +96,30 @@ services:
 					autosize
 					minRows={10}
 				/>
-				<CopyButton value={dockerComposeText || ''}>
-					{({ copied, copy }) => (
-						<Button
-							variant="outline"
-							w={200}
-							color={copied ? 'teal' : 'red'}
-							onClick={copy}
-							disabled={!dockerComposeText}
-						>
-							{copied ? 'Copied text' : 'Copy text'}
-						</Button>
-					)}
-				</CopyButton>
-				<Button
-					disabled={!dockerComposeText}
-					leftSection={<IconDownload size={14} />}
-					variant="outline"
-					color="red"
-					onClick={downloadFile}
-				>
-					Download file
-				</Button>
+				<Flex mih={50} gap="xl" justify="center" align="center" direction="row" wrap="wrap">
+					<CopyButton value={dockerComposeText || ''}>
+						{({ copied, copy }) => (
+							<Button
+								variant="outline"
+								w={200}
+								color={copied ? 'teal' : 'red'}
+								onClick={copy}
+								disabled={!dockerComposeText}
+							>
+								{copied ? 'Copied text' : 'Copy text'}
+							</Button>
+						)}
+					</CopyButton>
+					<Button
+						disabled={!dockerComposeText}
+						leftSection={<IconDownload size={14} />}
+						variant="outline"
+						color="red"
+						onClick={downloadFile}
+					>
+						Download file
+					</Button>
+				</Flex>
 			</Stack>
 		</Center>
 	);
