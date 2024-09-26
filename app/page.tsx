@@ -43,6 +43,7 @@ export default function HomePage() {
 			<Title order={4}>Converters</Title>
 			<List withPadding listStyleType="disc">
 				<List.Item>Added docker run to docker-compose converter</List.Item>
+				<List.Item>Added text to binary converter</List.Item>
 			</List>
 
 			<Space h="xl" />
