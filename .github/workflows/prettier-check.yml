@@ -1,0 +1,25 @@
+name: Prettier Check
+
+on:
+  push:
+    branches:
+      - '*'
+      - '!main'
+
+jobs:
+  prettier-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@d632683dd7b4114ad314bca15554477dd762a938
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@0a44ba7841725637a19e28fa30b79a866c81b0a6 # v4
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Prettier Check
+        run: npx prettier --check .

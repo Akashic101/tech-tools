@@ -9,7 +9,7 @@ export default function HomePage() {
 			<Flex mih={50} gap="sm" justify="flex-start" align="flex-end" direction="row" wrap="wrap">
 				<Title order={1}>Tech Tools</Title>
 				<Avatar src="/web-app-manifest-192x192.png" alt="Tech Tools logo" />
-				<Code>v1.2.0</Code>
+				<Code>v1.3.0</Code>
 			</Flex>
 
 			<Space h="xl" />
@@ -39,13 +39,10 @@ export default function HomePage() {
 
 			<Space h="xl" />
 			<Title order={2}>Patch Notes</Title>
-			<Title order={3}>v1.2.1</Title>
-			<Title order={4}>General Improvements</Title>
+			<Title order={3}>v1.3.0</Title>
+			<Title order={4}>Converters</Title>
 			<List withPadding listStyleType="disc">
-				<List.Item>Added link to github in the NavBar</List.Item>
-				<List.Item>Small layout changes</List.Item>
-				<List.Item>Added WIP-notice</List.Item>
-				<List.Item>pdated patchnotes-layout</List.Item>
+				<List.Item>Added docker run to docker-compose converter</List.Item>
 			</List>
 
 			<Space h="xl" />
@@ -58,7 +55,22 @@ export default function HomePage() {
 
 				<List withPadding listStyleType="disc">
 					<List.Item>
-						<Title order={3}>v1.2.0</Title>
+						<Title order={3}>v1.2.1</Title>
+					</List.Item>
+					<List withPadding listStyleType="disc">
+						<List.Item>
+							<Title order={4}>General</Title>
+							<List withPadding listStyleType="disc">
+								<List.Item>Added link to github in the NavBar</List.Item>
+								<List.Item>Small layout changes</List.Item>
+								<List.Item>Added WIP-notice</List.Item>
+								<List.Item>Updated patchnotes-layout</List.Item>
+							</List>
+						</List.Item>
+					</List>
+					<Space h="xl" />
+					<List.Item>
+						<Title order={3}>v1.3.0</Title>
 					</List.Item>
 					<List withPadding listStyleType="disc">
 						<List.Item>

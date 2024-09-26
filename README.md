@@ -6,6 +6,14 @@ This is the repo of the tech tools I developed. You can access it under https://
 
 ## Patch Notes
 
+**Version 1.3.0**
+
+- Converter
+  - Added docker run to docker-compose converter
+
+<details>
+  <summary>Previous versions</summary>
+
 **Version 1.2.0**
 
 - Converter
@@ -13,9 +21,6 @@ This is the repo of the tech tools I developed. You can access it under https://
   - Added Nato converter
 - General
   - Adjusted colors
-
-<details>
-  <summary>Previous versions</summary>
 
 **Version 1.1.0**
 

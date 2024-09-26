@@ -10,6 +10,7 @@ import {
 	IconColorFilter,
 	IconFileIsr,
 	IconAbc,
+	IconBrandDocker,
 } from '@tabler/icons-react';
 
 export const data = [
