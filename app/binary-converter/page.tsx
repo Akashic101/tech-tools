@@ -19,7 +19,7 @@ export default function BinaryConverter() {
 	const [octal, setOctal] = useState<string>('');
 	const [deximal, setDecimal] = useState<string>('');
 	const [hex, setHex] = useState<string>('');
-	const [base, setBase] = useState<number>(2)
+	const [base, setBase] = useState<number>(2);
 
 	function textToNumber(text: string, base: number) {
 		console.log(text, base);
@@ -37,11 +37,7 @@ export default function BinaryConverter() {
 	return (
 		<Center>
 			<Stack w={'50%'} align="stretch" justify="center" gap="md">
-				<Select
-					data={baseValues}
-					value={base}
-					onChange={(value) => setBase(value)}
-				/>
+				<Select data={baseValues} value={base} onChange={(value) => setBase(value)} />
 				<TextInput
 					label="Text"
 					value={textInput}
