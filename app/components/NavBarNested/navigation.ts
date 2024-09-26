@@ -37,11 +37,11 @@ export const data = [
 		label: 'Converter',
 		icon: IconTransform,
 		links: [
-			{ label: 'Temperature converter', link: '/temperature-converter', icon: IconTemperature },
-			{ label: 'Color converter', link: '/color-converter', icon: IconColorFilter },
-			{ label: 'Base64 file converter', link: '/base64-converter', icon: IconFileIsr },
-			{ label: 'Text to NATO converter', link: '/nato-converter', icon: IconAbc },
-			{ label: 'Docker run converter', link: '/docker-run-converter', icon: IconBrandDocker },
+			{ label: 'Temperature', link: '/temperature-converter', icon: IconTemperature },
+			{ label: 'Color', link: '/color-converter', icon: IconColorFilter },
+			{ label: 'Base64 file', link: '/base64-converter', icon: IconFileIsr },
+			{ label: 'Text to NATO', link: '/nato-converter', icon: IconAbc },
+			{ label: 'Text to Binary', link: '/binary-converter', icon: IconAbc },
 		],
 	},
 ];
