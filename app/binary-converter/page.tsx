@@ -19,13 +19,12 @@ export default function BinaryConverter() {
 	}
 
 	useEffect(() => {
-// Update all converted values based on text inputsetBinary(textToNumber(textInput, 2));
+		// Update all converted values based on text inputsetBinary(textToNumber(textInput, 2));
 		setBinary(textToNumber(textInput, 2));
 		setOctal(textToNumber(textInput, 8));
 		setDecimal(textToNumber(textInput, 10));
 		setHex(textToNumber(textInput, 16));
 	}, [textInput]);
-
 
 	return (
 		<Center>
@@ -37,9 +36,9 @@ export default function BinaryConverter() {
 					autosize
 				/>
 				<Textarea label="Binary" value={binary} readOnly autosize />
-				<Textarea label="Octal" value={octal} readOnly autosize/>
-				<Textarea label="Decimal" value={decimal} readOnly autosize/>
-				<Textarea label="Hexadecimal" value={hex} readOnly autosize/>
+				<Textarea label="Octal" value={octal} readOnly autosize />
+				<Textarea label="Decimal" value={decimal} readOnly autosize />
+				<Textarea label="Hexadecimal" value={hex} readOnly autosize />
 			</Stack>
 		</Center>
 	);
