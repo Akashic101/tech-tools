@@ -10,6 +10,7 @@ This is the repo of the tech tools I developed. You can access it under https://
 
 - Converter
   - Added docker run to docker-compose converter
+  - Added text to binary converter
 
 <details>
   <summary>Previous versions</summary>
