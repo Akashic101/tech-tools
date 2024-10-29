@@ -11,6 +11,8 @@ import {
 	IconFileIsr,
 	IconAbc,
 	IconBrandDocker,
+	IconWorldWww,
+	IconFileSearch,
 } from '@tabler/icons-react';
 
 export const data = [
@@ -43,5 +45,11 @@ export const data = [
 			{ label: 'Text to NATO', link: '/nato-converter', icon: IconAbc },
 			{ label: 'Text to Binary', link: '/binary-converter', icon: IconAbc },
 		],
+	},
+
+	{
+		label: 'Web',
+		icon: IconWorldWww,
+		links: [{ label: 'MIME-Type lookup', link: '/mime-type-lookup', icon: IconFileSearch }],
 	},
 ];
