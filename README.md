@@ -43,6 +43,7 @@ This is the repo of the tech tools I developed. You can access it under https://
 ## Roadmap
 
 - So many more tools
+  - semver-checker/validator 
 - Better design for mobile
 - Docker support and documentation on how to selfhost
 - Documentation on how to add a tool
